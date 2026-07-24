@@ -32,6 +32,7 @@ jobs:
           - aarch64_generic
           - mips_24kc
           - mips_mips32
+          - mips_siflower
           - x86_64
           
         sdk:
