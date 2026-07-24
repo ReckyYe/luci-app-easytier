@@ -67,7 +67,7 @@ jobs:
           chmod +x luci-app-easytier/root/etc/uci-defaults/luci-i18n-easytier-zh-cn
           
       - name: Building packages
-        uses: openwrt/gh-action-sdk@main
+        uses: immortalwrt/gh-action-sdk@master
         env:
           ARCH: ${{ matrix.arch }}-${{ matrix.sdk }}
           FEEDNAME: packages_ci
